@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import Navbar from './Navbar';
 import CartContainer from './CartContainer';
 import { useGlobalContext } from './Context';
+import { useEffect } from 'react';
 function App() {
+  
   const { loading } = useGlobalContext();
   if (loading) {
     return (

@@ -269,3 +269,10 @@ amount section
   color: var(--clr-primary);
   background: transparent;
 }
+.section {
+  /* min-height: calc(100vh - 120px); */
+  width: 90vw;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
